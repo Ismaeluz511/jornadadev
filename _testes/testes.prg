@@ -1,0 +1,3 @@
+FUNCTION Main()
+QOut("OLA MUNDO")
+RETURN NIL
