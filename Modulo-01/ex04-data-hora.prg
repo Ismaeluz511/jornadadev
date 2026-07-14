@@ -5,7 +5,7 @@ FUNCTION Main()
     Local cCurso:= "Harbour/Advpl"
 
     hb_cdpSelect("PT850") // fun‡Æo de formata‡Æo de texto para acentua‡Æo!
-    set date format "dd/mm/yyyy" // Formato de data dia/mˆs/ano
+    SET DATE FORMAT "dd/mm/yyyy" // Formato de data dia/mˆs/ano
 
 
     Qout("======================")
@@ -15,6 +15,7 @@ FUNCTION Main()
     Qout("Cidade: " + cCidade)
     Qout("Curso: " + cCurso)
     Qout("======================")
+    //Exerc¡cio 4 - Data e Hora//
     Qout("Data: "  + Dtoc(Date())) // fun‡Æo que mostra a data
     Qout("Hora: "  + (Time())) // fun‡Æo que mostra a hora
 
