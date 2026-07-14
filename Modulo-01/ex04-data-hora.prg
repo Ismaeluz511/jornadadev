@@ -5,6 +5,7 @@ FUNCTION Main()
     Local cCurso:= "Harbour/Advpl"
 
     hb_cdpSelect("PT850") // fun‡Æo de formata‡Æo de texto para acentua‡Æo!
+    set date format "dd/mm/yyyy" // Formato de data dia/mˆs/ano
 
 
     Qout("======================")
