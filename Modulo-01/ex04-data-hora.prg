@@ -16,7 +16,7 @@ FUNCTION Main()
     Qout("Curso: " + cCurso)
     Qout("======================")
     //Exerc¡cio 4 - Data e Hora//
-    Qout("Data: "  + Dtoc(Date())) // fun‡Æo que mostra a data
+    Qout("Data: "  + Dtoc(Date())) // fun‡Æo que mostra a data e transforma em string!
     Qout("Hora: "  + (Time())) // fun‡Æo que mostra a hora
 
 Return NIL
