@@ -1,5 +1,0 @@
-Function Main()
-
-
-
-Return NIL
